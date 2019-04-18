@@ -1,5 +1,3 @@
 # simpleFSPractice
-A simple filesystem practice project
+This is a simple filesystem practice project to test a filesystem in memory.
 
-The purpose of this project is to improve my understanding of pointers as well as how filesystems work.
-It is simply a practice project.  USE THIS CODE AT YOUR OWN RISK.
