@@ -6,7 +6,7 @@ typedef struct tableOfContents
 typedef struct file
 {
    char name[255];
-   fileChunk *startOfData;
+   chunk *startOfData;
 } fileHeader;
 
 typedef struct fileChunk
