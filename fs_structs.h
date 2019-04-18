@@ -1,5 +1,3 @@
-#include <stdio.h>
-
 typedef struct tableOfContents
 {
 	file *files[20000]; 
