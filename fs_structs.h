@@ -1,6 +1,6 @@
 typedef struct tableOfContents
 {
-	file *files[20000]; 
+	fileHeader *files[20000]; 
 } TOC;
 
 typedef struct file
