@@ -1,7 +1,9 @@
-typedef struct tableOfContents
+typedef struct fileChunk
 {
-   fileHeader *files[20000]; 
-} TOC;
+   unsigned int data;
+   struct chunk *prev;
+   struct chunk *next;
+} chunk;
 
 typedef struct file
 {
@@ -9,10 +11,8 @@ typedef struct file
    chunk *startOfData;
 } fileHeader;
 
-typedef struct fileChunk
+typedef struct tableOfContents
 {
-   unsigned int data;
-   fileChunk *prev;
-   fileChunk *next;
-} chunk;
+   fileHeader files[20000]; 
+} TOC;
 
