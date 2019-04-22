@@ -16,4 +16,4 @@ typedef struct tableOfContents
    fileHeader files[20000]; 
 } TOC;
 
-void createFile(TOC *toc);
+void createSimpleFile(TOC *toc);
