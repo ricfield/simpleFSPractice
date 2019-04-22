@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "fs_structs.h"
+#include "fs.h"
 #include <stdlib.h>
 
 // A simple filesystem
