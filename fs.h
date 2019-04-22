@@ -8,7 +8,7 @@ typedef struct fileChunk
 typedef struct file
 {
    char name[255];
-   chunk *startOfData;
+   chunk startOfData;
 } fileHeader;
 
 typedef struct tableOfContents
